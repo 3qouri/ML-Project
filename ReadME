@@ -1,7 +1,21 @@
 ## OWEN | TANIA
 
+1-Preprocessing:
+#Owen(60%):Data ingestion & memory-savvy joins,eda,Feature Eng,Dimensionality collinearity,Imbalanced data handling,Time-aware splitting
 
-#Owen:
+#Tania(40%): Cleaning & Imputation,Encoding Categorical Variables, Feature scaling
+
+2-Task A:
+#Owen (90%) :  Logistic Regression,K-Nearest Neighbors classifier,Random Forest classifier,Support Vector Machine , Decision Tree classifier,XGBOOST,LightGBM)
+#Tania(10%) :pdf Classification Models, pdf Evaluation and Explainability          
+
+3- Task B:
+#Owen (90%) :Logistic Regression,K-Nearest Neighbors classifier,Random Forest classifier,Support Vector Machine , Decision Tree classifier,XGBOOST,LightGBM)
+
+#Tania(10%) :pdf Regression Models ,pdf Evaluation and Explainability
+
+
+                                             Preprocessing:
 
 # ReduceMemory:
 هذه المرحلة لتقليل استهلاك الذاكرة , بما أن حجم البيانات كبير جدا قد يؤدي تحميل هذه البيانات كما هي الى استهلاك الكثير من الذاكرة رام
@@ -201,6 +215,10 @@ uxp_features['uxp_orders_since_last_bought']:حسبنا عدد الطلبات م
 وحذفت الكولومز الي هي ممكن تعمل نويز وتخرب على اداء الموديل مثل ال ids و اكم فيتشر موجودين بالكود 
 بعدها عملت البري بروسيسور داخل بايبلاين بحيث انه امتنع عن اي  data leakage
 وبرضو كذالك اي موديل كنت اعمله داخل بايب لاين بحيث ما يصير اي leakage
+-------------------------------------------------------------------------------------------------------------------------------------------
+     
+                                                 MODELS CLASSIFY
+
 
 1-knn -> بالبداية الكود دخلت على المودل كثيررر فيتشرز مما ادى الى انه يصير عندي اوفر فيت ف اضطريت انه ازيد قائمة الحذف وال 
 ال knn بطبعه حساس فيعني النتيجة العالية الي بينت معنا ناتجة عشان طريقة عمله هو بس بعتمد عالميموري والمسافات هو ما بعتمد اي معادلة رياضية معينة يعني عشان هيك طلع معنا 0.89
@@ -234,7 +252,7 @@ uxp_features['uxp_orders_since_last_bought']:حسبنا عدد الطلبات م
 # طبعا عملنا لكل المودلز ال بلوتس اللاومة والمقارانات 
 (التجارب موجودة بالكود )
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* REGREESION
+*                                                             MODELS REGREESION
 
 
 
